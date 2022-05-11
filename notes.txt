@@ -1,0 +1,10 @@
+
+
+                Céation d'un blog thème au choix
+
+1. Structure MVC Orienté Objet
+2. BackOffice - CRUD des articles
+3. Mise en place du front - Page d'accueil avec tous les articles et page de détail d'un article 
+
+BONUS : Mise en place d'un système d'inscription + système de connexion
+BONUS++ : Mise en place d'une page profil + la personne peut plublier des articles

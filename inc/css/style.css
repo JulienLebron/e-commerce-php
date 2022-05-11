@@ -1,0 +1,44 @@
+/**************************************************
+                    GENERAL
+**************************************************/
+* { margin: 0; }
+a { text-decoration: none; color: #000; }
+.conteneur { margin: 0 auto; max-width: 1170px; }
+a:hover { color: #FFD700; }
+button a { color: #fff; }
+body { font-family: 'Roboto', sans-serif; }
+h1, h2, h3, h4, h5 { font-family: 'Lato', sans-serif; font-weight: 700; }
+/**************************************************
+                    HAUT
+**************************************************/
+header { background: #000; padding: 5px; text-align: center; }
+header span{ color: #fff; font-weight: bold; text-transform: uppercase; margin-right: 5%; }
+header span a:hover { background: #04baf6; color: #FFD700; }
+header nav { display: inline; }
+header a { color: #fff; text-decoration: none; padding: 5px;}
+header nav a:hover { background: #04baf6; color: #FFD700; }
+/**************************************************
+                    MILIEU
+**************************************************/
+section { padding: 30px; min-height: 865px; }
+/**************************************************
+                    BAS
+**************************************************/
+footer { background: #000; color: #fff; text-align: center; padding: 7px 0; }
+/**************************************************
+                    BACK OFFICE PRODUIT
+**************************************************/
+.img-gestion-produit { height: 120px; width: 120px; object-fit: contain; }
+.img-gestion-produit-modif { object-fit: contain; }
+/**************************************************
+                    FRONT BOUTIQUE
+**************************************************/
+.boutique-gauche { background: #f2f2f2; min-height: 500px; padding-top: 10px ; padding-left: 0; padding-right: 0;}
+.boutique-gauche ul { list-style: none; padding: 0; }
+.boutique-gauche ul li a { display: block; padding: 10px; }
+.boutique-gauche ul li a:hover { background: #04baf6; color: #FFD700; }
+.boutique-droite { display: flex; flex-wrap: wrap; justify-content: space-around; }
+.boutique-produit:hover { background: #f2f2f2; }
+.card-img-top { min-height: 200px; max-height: 330px; object-fit: contain; width: 100%; }
+
+.img-fiche-produit { height: 350px; width: 350px; object-fit: contain;}
